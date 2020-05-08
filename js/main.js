@@ -1,3 +1,5 @@
+
+
 function navSlide() {
     const burger = document.querySelector('.burger')
     const nav = document.querySelector('.nav-links')
@@ -12,6 +14,10 @@ navSlide()
 
 
 new Glide('.glide', {
-    autoplay: 3500,
-    hoverpause: false,
+    autoplay: 7000,
+    hoverpause: true,
 }).mount()
+
+new Cocoen(document.querySelector('.cocoen'));
+
+

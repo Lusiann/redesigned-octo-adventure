@@ -1,4 +1,19 @@
 .container li {
     width: 100vw;
     height: 50vh;
+    margin-top: 5px;
+}
+.container li img {
+    width: 100%;
+    height: auto;
+}
+
+.dentroLi {
+    position: absolute;
+    width: 100vw;
+    height: 100ch;
+    background-color: rgba(58, 53, 53, 0.479);
+    color: white;
+    font-size: 3rem;
+    text-align: center;    
 }
