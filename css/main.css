@@ -13,6 +13,7 @@ html {
     
     background-color: white;
     border: solid 1px rgba(0, 0, 0, 0.356);
+    
 }
 
 .sottocontenitore2 {
@@ -23,4 +24,12 @@ html {
 .sottocontenitore2 img {
     width: 500px;
     height: 500px;
+}
+
+#more {display: none;}
+
+@media screen and (max-width:768px) {
+    .contenitore1 {
+        grid-template-columns: 1fr;
+    }
 }
